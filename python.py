@@ -105,7 +105,7 @@ with open(args.file, 'r') as f:
 
     for i in range(1, args.maxTuples + 1):
 
-        print("\n=== Sliding Window: {} ===".format(i))
+        print("\n\n=== Sliding Window: {} ===".format(i))
 
         for tup in Counter(filtered_window(words, i)).most_common(args.numWords):
 
